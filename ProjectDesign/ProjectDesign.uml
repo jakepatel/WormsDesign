@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_u_WvwJpzEeyNBO8RsnDXjg" name="ProjectDesign">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_u_0p0JpzEeyNBO8RsnDXjg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AkFKwJp0EeyNBO8RsnDXjg" name="Container"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I56NQJp0EeyNBO8RsnDXjg" name="LoginView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K20l4Jp0EeyNBO8RsnDXjg" name="LoginControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MKbi0Jp0EeyNBO8RsnDXjg" name="LoginModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cQ9hgJp0EeyNBO8RsnDXjg" name="MainMenuView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_d-bI4Jp0EeyNBO8RsnDXjg" name="MainMenuControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_f-C3QJp0EeyNBO8RsnDXjg" name="MainMenuModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0MMLkJp0EeyNBO8RsnDXjg" name="LeaderboardView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2sx5AJp0EeyNBO8RsnDXjg" name="LeaderboardModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4WN8AJp0EeyNBO8RsnDXjg" name="LeaderboardControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L5-PgJp1EeyNBO8RsnDXjg" name="GameRules"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M3RlQJp1EeyNBO8RsnDXjg" name="GameView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PZYVoJp1EeyNBO8RsnDXjg" name="GameModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RMR2oJp1EeyNBO8RsnDXjg" name="GameControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3K_pkJp1EeyNBO8RsnDXjg" name="AdminSettingView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_67VusJp1EeyNBO8RsnDXjg" name="AdminSettingModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9VpN8Jp1EeyNBO8RsnDXjg" name="AdminSettingControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ByyusJp2EeyNBO8RsnDXjg" name="Player"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_E_svkJp2EeyNBO8RsnDXjg" name="Admin"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GUxsIJp2EeyNBO8RsnDXjg" name="Vehicle"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JobOMJp2EeyNBO8RsnDXjg" name="Weapon"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZkqocJp2EeyNBO8RsnDXjg" name="GameServer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a-Jj4Jp2EeyNBO8RsnDXjg" name="GameClient"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ldmlUJp2EeyNBO8RsnDXjg" name="GameOverView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tC14YJp2EeyNBO8RsnDXjg" name="GameOverControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_u2wGAJp2EeyNBO8RsnDXjg" name="GameOverModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zb_LwJp2EeyNBO8RsnDXjg" name="Landscape"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_50pW8Jp2EeyNBO8RsnDXjg" name="LogoutView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Bb9toJp3EeyNBO8RsnDXjg" name="LogoutModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_D5ZZYJp3EeyNBO8RsnDXjg" name="LogoutControl"/>
+</uml:Model>
