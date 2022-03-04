@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_4VUqYJwEEey-7e-KvcoBSA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_4VUqYZwEEey-7e-KvcoBSA" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_4VUqYpwEEey-7e-KvcoBSA"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_4VUqY5wEEey-7e-KvcoBSA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-    <owner href="Backend.uml#_4VOjwJwEEey-7e-KvcoBSA"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4VUqYJwEEey-7e-KvcoBSA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_4VUqYZwEEey-7e-KvcoBSA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_4VUqYpwEEey-7e-KvcoBSA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_4VUqY5wEEey-7e-KvcoBSA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Backend.uml#_4VOjwJwEEey-7e-KvcoBSA"/>
   </styles>
-  <element href="Backend.uml#_4VOjwJwEEey-7e-KvcoBSA"/>
+  <element xmi:type="uml:Model" href="Backend.uml#_4VOjwJwEEey-7e-KvcoBSA"/>
 </notation:Diagram>
