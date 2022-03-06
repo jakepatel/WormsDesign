@@ -5,7 +5,21 @@
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwJwGEey-7e-KvcoBSA" name="Landscape"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwZwGEey-7e-KvcoBSA" name="Vehicle"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwpwGEey-7e-KvcoBSA" name="Weapon"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwpwGEey-7e-KvcoBSA" name="Weapon">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4Ktn4JzrEeyOEvc0MSELZg" name="damage" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7LsFkJzrEeyOEvc0MSELZg" name="drawback" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-FVMMJzrEeyOEvc0MSELZg" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KSeegJzsEeyOEvc0MSELZg" name="image" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_W-QNkJzsEeyOEvc0MSELZg" name="All setters/getters"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="Admin"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMxJwGEey-7e-KvcoBSA" name="Player"/>
 </uml:Model>
