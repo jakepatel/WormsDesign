@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gIRQgJwEEey-7e-KvcoBSA" name="Frontend">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gIRQgJwEEey-7e-KvcoBSA" name="Frontend">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_gIujgJwEEey-7e-KvcoBSA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nKB1cJzoEeyOEvc0MSELZg">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_3RkR4JwFEey-7e-KvcoBSA" name="AdminSettingView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_3RkR4ZwFEey-7e-KvcoBSA" name="LeaderboardView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48JwFEey-7e-KvcoBSA" name="GameView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48ZwFEey-7e-KvcoBSA" name="GameOverView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48ZwFEey-7e-KvcoBSA" name="GameOverView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lpNN0JzmEeyOEvc0MSELZg" name="returnToMenuButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xW5HgJznEeyOEvc0MSELZg" name="PlayAgainButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7YfvUJznEeyOEvc0MSELZg" name="FinalScoreLabel" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OSUUeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__41uAJznEeyOEvc0MSELZg" name="GaveOverView">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DadvwJzqEeyOEvc0MSELZg" name="controller" direction="inout">
+        <type xmi:type="uml:Class" href="ProjectDesign.uml#_tC14YJp2EeyNBO8RsnDXjg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48pwFEey-7e-KvcoBSA" name="LoginView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk485wFEey-7e-KvcoBSA" name="MainMenuView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk49JwFEey-7e-KvcoBSA" name="LogoutView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_-0JSgJwFEey-7e-KvcoBSA" name="GameClient"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+  </profileApplication>
 </uml:Model>
