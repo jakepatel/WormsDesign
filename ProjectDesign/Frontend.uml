@@ -10,17 +10,21 @@
     <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_3RkR4JwFEey-7e-KvcoBSA" name="AdminSettingView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_GBulEKCcEeymj5Gt4xNRFw" name="LogOutButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GBulEKCcEeymj5Gt4xNRFw" name="LogOutButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hm06oKCcEeymj5Gt4xNRFw" name="CreataGameRoomButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hm06oKCcEeymj5Gt4xNRFw" name="CreataGameRoomButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_KfcGgKCcEeymj5Gt4xNRFw" name="DeleteAPlayerButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KfcGgKCcEeymj5Gt4xNRFw" name="DeleteAPlayerButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_eZ8GEKCcEeymj5Gt4xNRFw" name="ChangeSettingsButton"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_h2jW4KCcEeymj5Gt4xNRFw" name="statusLabel"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eZ8GEKCcEeymj5Gt4xNRFw" name="ChangeSettingsButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_h2jW4KCcEeymj5Gt4xNRFw" name="statusLabel" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_YvWpsJzqEeyOEvc0MSELZg" name="AdminSettingView">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_gFl3cJzqEeyOEvc0MSELZg" name="controller" direction="inout">
         <type xmi:type="uml:Class" href="ProjectDesign.uml#_9VpN8Jp1EeyNBO8RsnDXjg"/>
@@ -28,7 +32,7 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3RkR4ZwFEey-7e-KvcoBSA" name="LeaderboardView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_6whpAJzqEeyOEvc0MSELZg" name="returnToMenuButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6whpAJzqEeyOEvc0MSELZg" name="returnToMenuButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_jAKyMJzqEeyOEvc0MSELZg" name="LeaderboardView">
@@ -38,22 +42,22 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48JwFEey-7e-KvcoBSA" name="GameView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Gotz8KCZEeymj5Gt4xNRFw" name="VehiclePlayer1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Gotz8KCZEeymj5Gt4xNRFw" name="VehiclePlayer1" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_GUxsIJp2EeyNBO8RsnDXjg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_KQgaAKCZEeymj5Gt4xNRFw" name="VehiclePlayer2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KQgaAKCZEeymj5Gt4xNRFw" name="VehiclePlayer2" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_GUxsIJp2EeyNBO8RsnDXjg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_LxjWAKCZEeymj5Gt4xNRFw" name="Player1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LxjWAKCZEeymj5Gt4xNRFw" name="Player1" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_ByyusJp2EeyNBO8RsnDXjg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_McyEUKCZEeymj5Gt4xNRFw" name="Player2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_McyEUKCZEeymj5Gt4xNRFw" name="Player2" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_ByyusJp2EeyNBO8RsnDXjg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_QaCkEKCZEeymj5Gt4xNRFw" name="map">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QaCkEKCZEeymj5Gt4xNRFw" name="map" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_zb_LwJp2EeyNBO8RsnDXjg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_RvkzoKCZEeymj5Gt4xNRFw" name="weaponsArray">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RvkzoKCZEeymj5Gt4xNRFw" name="weaponsArray" visibility="private">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_JobOMJp2EeyNBO8RsnDXjg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1W9i0KCZEeymj5Gt4xNRFw" value="*"/>
     </ownedAttribute>
@@ -86,10 +90,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48pwFEey-7e-KvcoBSA" name="LoginView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk485wFEey-7e-KvcoBSA" name="MainMenuView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_aXR0UJzrEeyOEvc0MSELZg" name="LeaderBoardsButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aXR0UJzrEeyOEvc0MSELZg" name="LeaderBoardsButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_cV3n8JzrEeyOEvc0MSELZg" name="JoinAGameButton">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cV3n8JzrEeyOEvc0MSELZg" name="JoinAGameButton" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_g5aroJzrEeyOEvc0MSELZg" name="LogOutButton" visibility="private">
@@ -103,8 +107,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk49JwFEey-7e-KvcoBSA" name="LogoutView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_-0JSgJwFEey-7e-KvcoBSA" name="GameClient">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_JgGGMKCYEeymj5Gt4xNRFw" name="container">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JgGGMKCYEeymj5Gt4xNRFw" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_gysqAKCYEeymj5Gt4xNRFw" name="handleMessageFromServer"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ifXnMKCYEeymj5Gt4xNRFw" name="connectionEstablished"/>
@@ -127,19 +131,57 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_xpfoAKCYEeymj5Gt4xNRFw" name="GameGUI">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_zr6LsKCYEeymj5Gt4xNRFw" name="client"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_00EGkKCYEeymj5Gt4xNRFw" name="container"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zr6LsKCYEeymj5Gt4xNRFw" name="client" visibility="private" type="_-0JSgJwFEey-7e-KvcoBSA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_00EGkKCYEeymj5Gt4xNRFw" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_-68P8KCYEeymj5Gt4xNRFw" name="GameGUI"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_AMglgKCZEeymj5Gt4xNRFw" name="main" isStatic="true"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_tS-eQKCZEeymj5Gt4xNRFw" name="LoginView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kOzSkKCaEeymj5Gt4xNRFw" name="PlayerLoginButton"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_2mFWcKCbEeymj5Gt4xNRFw" name="AdminLoginButton"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5e-PIKCbEeymj5Gt4xNRFw" name="CreatePlayerAccountButton"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kOzSkKCaEeymj5Gt4xNRFw" name="PlayerLoginButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2mFWcKCbEeymj5Gt4xNRFw" name="AdminLoginButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5e-PIKCbEeymj5Gt4xNRFw" name="CreatePlayerAccountButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_huob4KCaEeymj5Gt4xNRFw" name="LoginView"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_nQZwcKCcEeymj5Gt4xNRFw" name="DeletePlayerView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_qjGQQKCcEeymj5Gt4xNRFw" name="ChangeSettingsView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nQZwcKCcEeymj5Gt4xNRFw" name="DeletePlayerView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1-CNEKCdEeymj5Gt4xNRFw" name="playerListScrollPane" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OoSm-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6e7lYKCdEeymj5Gt4xNRFw" name="DeletePlayerButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7pDPIKCdEeymj5Gt4xNRFw" name="returnToAdminMenuButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9nbAUKCdEeymj5Gt4xNRFw" name="getPlayerSelected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R3nGkKCfEeymj5Gt4xNRFw" name="DeletePlayerView"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qjGQQKCcEeymj5Gt4xNRFw" name="ChangeSettingsView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hES-EKCdEeymj5Gt4xNRFw" name="ScoreTextField" visibility="protected">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jak48KCdEeymj5Gt4xNRFw" name="TimeTextField" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nQKqcKCdEeymj5Gt4xNRFw" name="HealthTextField" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rzqDwKCdEeymj5Gt4xNRFw" name="submitButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sq7qAKCdEeymj5Gt4xNRFw" name="returnToAdminMenuButton" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vmk7wKCdEeymj5Gt4xNRFw" name="all setters/getters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xpsDAKCdEeymj5Gt4xNRFw" name="ChangeSettingView"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
