@@ -236,6 +236,10 @@
         <element xmi:type="uml:Property" href="Frontend.uml#_h2jW4KCcEeymj5Gt4xNRFw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_h2yAYaCcEeymj5Gt4xNRFw"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_s-RVYKCgEeymj5Gt4xNRFw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Frontend.uml#_s-CE0KCgEeymj5Gt4xNRFw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s-RVYaCgEeymj5Gt4xNRFw"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_3RpKZpwFEey-7e-KvcoBSA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_3RpKZ5wFEey-7e-KvcoBSA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_3RpKaJwFEey-7e-KvcoBSA"/>
@@ -384,7 +388,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DTl2UZzrEeyOEvc0MSELZg"/>
     </children>
     <element xmi:type="uml:Class" href="Frontend.uml#_DTgWsJzrEeyOEvc0MSELZg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DTlPMZzrEeyOEvc0MSELZg" x="440" y="180"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DTlPMZzrEeyOEvc0MSELZg" x="440" y="220"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_xpm8wKCYEeymj5Gt4xNRFw" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_xpnj0KCYEeymj5Gt4xNRFw" type="Class_NameLabel"/>
@@ -426,7 +430,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpnj4aCYEeymj5Gt4xNRFw"/>
     </children>
     <element xmi:type="uml:Class" href="Frontend.uml#_xpfoAKCYEeymj5Gt4xNRFw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpm8waCYEeymj5Gt4xNRFw" x="440" y="322" width="161" height="141"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpm8waCYEeymj5Gt4xNRFw" x="440" y="360" width="161" height="141"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tS_FUKCZEeymj5Gt4xNRFw" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_tS_sYKCZEeymj5Gt4xNRFw" type="Class_NameLabel"/>

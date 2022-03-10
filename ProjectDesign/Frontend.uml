@@ -25,6 +25,9 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_h2jW4KCcEeymj5Gt4xNRFw" name="statusLabel" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s-CE0KCgEeymj5Gt4xNRFw" name="GameRoomTitleTextField" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_YvWpsJzqEeyOEvc0MSELZg" name="AdminSettingView">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_gFl3cJzqEeyOEvc0MSELZg" name="controller" direction="inout">
         <type xmi:type="uml:Class" href="ProjectDesign.uml#_9VpN8Jp1EeyNBO8RsnDXjg"/>
@@ -164,7 +167,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_R3nGkKCfEeymj5Gt4xNRFw" name="DeletePlayerView"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qjGQQKCcEeymj5Gt4xNRFw" name="ChangeSettingsView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_hES-EKCdEeymj5Gt4xNRFw" name="ScoreTextField" visibility="protected">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hES-EKCdEeymj5Gt4xNRFw" name="ScoreTextField" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_jak48KCdEeymj5Gt4xNRFw" name="TimeTextField" visibility="private">
