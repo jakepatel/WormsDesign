@@ -33,4 +33,11 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_50pW8Jp2EeyNBO8RsnDXjg" name="LogoutView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Bb9toJp3EeyNBO8RsnDXjg" name="LogoutModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_D5ZZYJp3EeyNBO8RsnDXjg" name="LogoutControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vpJg4KCYEeymj5Gt4xNRFw" name="GameGUI"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yXUagKCcEeymj5Gt4xNRFw" name="DeletePlayerView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0u7LEKCcEeymj5Gt4xNRFw" name="DeletePlayerControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4dw0UKCcEeymj5Gt4xNRFw" name="DeletePlayerData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9SP3AKCcEeymj5Gt4xNRFw" name="ChangeSettingsControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__eu8sKCcEeymj5Gt4xNRFw" name="ChangeSettingsData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EP1UMKCdEeymj5Gt4xNRFw" name="ChangeSettingsData"/>
 </uml:Model>
