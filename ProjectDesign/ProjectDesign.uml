@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_u_WvwJpzEeyNBO8RsnDXjg" name="ProjectDesign">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_u_WvwJpzEeyNBO8RsnDXjg" name="ProjectDesign">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_u_0p0JpzEeyNBO8RsnDXjg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -36,8 +36,159 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_vpJg4KCYEeymj5Gt4xNRFw" name="GameGUI"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_yXUagKCcEeymj5Gt4xNRFw" name="DeletePlayerView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_0u7LEKCcEeymj5Gt4xNRFw" name="DeletePlayerControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_4dw0UKCcEeymj5Gt4xNRFw" name="DeletePlayerData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4dw0UKCcEeymj5Gt4xNRFw" name="DeletePlayerModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_9SP3AKCcEeymj5Gt4xNRFw" name="ChangeSettingsControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="__eu8sKCcEeymj5Gt4xNRFw" name="ChangeSettingsData"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_EP1UMKCdEeymj5Gt4xNRFw" name="ChangeSettingsData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__eu8sKCcEeymj5Gt4xNRFw" name="ChangeSettingsModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EP1UMKCdEeymj5Gt4xNRFw" name="ChangeSettingsView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5lEZwKGQEeywBZirIN9jeg" name="ChangeSettingsModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AKICMKGREeywBZirIN9jeg" name="DeletePlayerModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVJoKGREeywBZirIN9jeg" name="Vehicle"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsKGREeywBZirIN9jeg" name="Admin"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsaGREeywBZirIN9jeg" name="Landscape"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsqGREeywBZirIN9jeg" name="Weapon"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVws6GREeywBZirIN9jeg" name="Player">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YrGBIqGSEeywBZirIN9jeg" name="admin" type="_MuVwsKGREeywBZirIN9jeg" association="_YrFaEKGSEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YrGoMKGSEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrGoMaGSEeywBZirIN9jeg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bscHsKGREeywBZirIN9jeg" name="LogoutModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hy7k0KGREeywBZirIN9jeg" name="GameOverModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jWg3cKGREeywBZirIN9jeg" name="AdminSettingModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mK98EKGREeywBZirIN9jeg" name="LeaderboardModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pdDX4KGREeywBZirIN9jeg" name="GameRules"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sy8VoKGREeywBZirIN9jeg" name="MainMenuModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vFLeAKGREeywBZirIN9jeg" name="LoginModel"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OU_wAKGSEeywBZirIN9jeg" memberEnd="_OVEogKGSEeywBZirIN9jeg _OVHEwaGSEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OVDaYKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OVEBcKGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OVHEwaGSEeywBZirIN9jeg" name="player" type="_MuVws6GREeywBZirIN9jeg" association="_OU_wAKGSEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vJA_sKGSEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vJPpMKGSEeywBZirIN9jeg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OVEogKGSEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_OU_wAKGSEeywBZirIN9jeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YrFaEKGSEeywBZirIN9jeg" memberEnd="_YrGBIqGSEeywBZirIN9jeg _YrGoMqGSEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YrGBIKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YrGBIaGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YrGoMqGSEeywBZirIN9jeg" name="player" type="_MuVws6GREeywBZirIN9jeg" association="_YrFaEKGSEeywBZirIN9jeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jDDTcKGSEeywBZirIN9jeg" memberEnd="_jDD6gqGSEeywBZirIN9jeg _jDD6haGSEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jDD6gKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jDD6gaGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jDD6haGSEeywBZirIN9jeg" name="landscape" type="_MuVwsaGREeywBZirIN9jeg" association="_jDDTcKGSEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_shHJUKGSEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_shSvgKGSEeywBZirIN9jeg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jDD6gqGSEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_jDDTcKGSEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDD6g6GSEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDD6hKGSEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w7GoYKGSEeywBZirIN9jeg" memberEnd="_w7HPcqGSEeywBZirIN9jeg _w7H2gaGSEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w7HPcKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w7HPcaGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w7H2gaGSEeywBZirIN9jeg" name="weapon" type="_MuVwsqGREeywBZirIN9jeg" association="_w7GoYKGSEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w7HPcqGSEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_w7GoYKGSEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w7HPc6GSEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w7H2gKGSEeywBZirIN9jeg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7D-V0KGSEeywBZirIN9jeg" memberEnd="_7D-84qGSEeywBZirIN9jeg _7D_j8aGSEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7D-84KGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7D-84aGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7D_j8aGSEeywBZirIN9jeg" name="loginmodel" type="_vFLeAKGREeywBZirIN9jeg" association="_7D-V0KGSEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7D-84qGSEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_7D-V0KGSEeywBZirIN9jeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ji4PYKGTEeywBZirIN9jeg" memberEnd="_Ji42cqGTEeywBZirIN9jeg _Ji5dgaGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ji42cKGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ji42caGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ji5dgaGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_Ji4PYKGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ji42cqGTEeywBZirIN9jeg" name="deleteplayermodel" type="_4dw0UKCcEeymj5Gt4xNRFw" association="_Ji4PYKGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ji42c6GTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ji5dgKGTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ncp9UKGTEeywBZirIN9jeg" memberEnd="_NcqkYqGTEeywBZirIN9jeg _NcqkZaGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NcqkYKGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NcqkYaGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NcqkZaGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_Ncp9UKGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NcqkYqGTEeywBZirIN9jeg" name="adminsettingmodel" type="_jWg3cKGREeywBZirIN9jeg" association="_Ncp9UKGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NcqkY6GTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NcqkZKGTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RVZJcKGTEeywBZirIN9jeg" memberEnd="_RVZJc6GTEeywBZirIN9jeg _RVZwgqGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RVZJcaGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RVZJcqGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RVZwgqGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_RVZJcKGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RVZJc6GTEeywBZirIN9jeg" name="gamerules" type="_pdDX4KGREeywBZirIN9jeg" association="_RVZJcKGTEeywBZirIN9jeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UXF_4KGTEeywBZirIN9jeg" memberEnd="_UXF_46GTEeywBZirIN9jeg _UXGm8qGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UXF_4aGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UXF_4qGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UXGm8qGTEeywBZirIN9jeg" name="vehicle" type="_MuVJoKGREeywBZirIN9jeg" association="_UXF_4KGTEeywBZirIN9jeg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_lFEKGTEeywBZirIN9jeg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UXF_46GTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_UXF_4KGTEeywBZirIN9jeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YbGA0KGTEeywBZirIN9jeg" memberEnd="_YbGn4qGTEeywBZirIN9jeg _YbGn5aGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YbGn4KGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YbGn4aGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YbGn5aGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_YbGA0KGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YbGn4qGTEeywBZirIN9jeg" name="logoutmodel" type="_bscHsKGREeywBZirIN9jeg" association="_YbGA0KGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YbGn46GTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YbGn5KGTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eDvEUKGTEeywBZirIN9jeg" memberEnd="_eDvrYqGTEeywBZirIN9jeg _eDwScqGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eDvrYKGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eDvrYaGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eDwScqGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_eDvEUKGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eDvrYqGTEeywBZirIN9jeg" name="changesettingsmodel" type="_5lEZwKGQEeywBZirIN9jeg" association="_eDvEUKGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eDwScKGTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eDwScaGTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tRlHgKGTEeywBZirIN9jeg" memberEnd="_tRlukaGTEeywBZirIN9jeg _tRlulKGTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tRlHgaGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tRlukKGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tRlulKGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_tRlHgKGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tRlukaGTEeywBZirIN9jeg" name="leaderboardmodel" type="_mK98EKGREeywBZirIN9jeg" association="_tRlHgKGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tRlukqGTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tRluk6GTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wNVG8KGTEeywBZirIN9jeg" memberEnd="_wNVuAKGTEeywBZirIN9jeg _wNVuA6GTEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wNVG8aGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wNVG8qGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wNVuA6GTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_wNVG8KGTEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wNVuAKGTEeywBZirIN9jeg" name="mainmenumodel" type="_sy8VoKGREeywBZirIN9jeg" association="_wNVG8KGTEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wNVuAaGTEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wNVuAqGTEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Cb3T8KGUEeywBZirIN9jeg" memberEnd="_Cb37AqGUEeywBZirIN9jeg _Cb4iEqGUEeywBZirIN9jeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cb37AKGUEeywBZirIN9jeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cb37AaGUEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cb4iEqGUEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_Cb3T8KGUEeywBZirIN9jeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cb37AqGUEeywBZirIN9jeg" name="gameovermodel" type="_hy7k0KGREeywBZirIN9jeg" association="_Cb3T8KGUEeywBZirIN9jeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cb4iEKGUEeywBZirIN9jeg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cb4iEaGUEeywBZirIN9jeg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
