@@ -5,6 +5,10 @@
 Associated with all &quot;View&quot; Classes
 </body>
   </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_W5GaYKLXEeyICrnM3Tn3Jw">
+    <body>container: Contains all &quot;View&quot; Calsses
+</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_u_0p0JpzEeyNBO8RsnDXjg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -53,10 +57,7 @@ Associated with all &quot;View&quot; Classes
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsaGREeywBZirIN9jeg" name="Landscape"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsqGREeywBZirIN9jeg" name="Weapon"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVws6GREeywBZirIN9jeg" name="Player">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YrGBIqGSEeywBZirIN9jeg" name="admin" type="_MuVwsKGREeywBZirIN9jeg" association="_YrFaEKGSEeywBZirIN9jeg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YrGoMKGSEeywBZirIN9jeg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrGoMaGSEeywBZirIN9jeg" value="1"/>
-    </ownedAttribute>
+    <generalization xmi:type="uml:Generalization" xmi:id="_HZ46YKLXEeyICrnM3Tn3Jw" general="_MuVwsKGREeywBZirIN9jeg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_bscHsKGREeywBZirIN9jeg" name="LogoutModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hy7k0KGREeywBZirIN9jeg" name="GameOverModel"/>
@@ -74,12 +75,6 @@ Associated with all &quot;View&quot; Classes
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vJPpMKGSEeywBZirIN9jeg" value="*"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_OVEogKGSEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_OU_wAKGSEeywBZirIN9jeg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_YrFaEKGSEeywBZirIN9jeg" memberEnd="_YrGBIqGSEeywBZirIN9jeg _YrGoMqGSEeywBZirIN9jeg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YrGBIKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YrGBIaGSEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YrGoMqGSEeywBZirIN9jeg" name="player" type="_MuVws6GREeywBZirIN9jeg" association="_YrFaEKGSEeywBZirIN9jeg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_jDDTcKGSEeywBZirIN9jeg" memberEnd="_jDD6gqGSEeywBZirIN9jeg _jDD6haGSEeywBZirIN9jeg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jDD6gKGSEeywBZirIN9jeg" source="org.eclipse.papyrus">
@@ -466,5 +461,13 @@ Associated with all &quot;View&quot; Classes
     <ownedEnd xmi:type="uml:Property" xmi:id="_rMlEoqJpEeyhVvWCR9ikiA" name="weapon" type="_JobOMJp2EeyNBO8RsnDXjg" association="_rMkdkKJpEeyhVvWCR9ikiA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rMlrsKJpEeyhVvWCR9ikiA" value="*"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MCiggKLXEeyICrnM3Tn3Jw" name="Container"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R-F48KLXEeyICrnM3Tn3Jw" memberEnd="_R-GgAqLXEeyICrnM3Tn3Jw _R-HHEKLXEeyICrnM3Tn3Jw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R-GgAKLXEeyICrnM3Tn3Jw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R-GgAaLXEeyICrnM3Tn3Jw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R-HHEKLXEeyICrnM3Tn3Jw" name="gameclient" type="_a-Jj4Jp2EeyNBO8RsnDXjg" association="_R-F48KLXEeyICrnM3Tn3Jw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R-GgAqLXEeyICrnM3Tn3Jw" name="container" type="_MCiggKLXEeyICrnM3Tn3Jw" association="_R-F48KLXEeyICrnM3Tn3Jw"/>
   </packagedElement>
 </uml:Model>

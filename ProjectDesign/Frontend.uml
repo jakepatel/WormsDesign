@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gIRQgJwEEey-7e-KvcoBSA" name="Frontend">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_lUzO8KLXEeyICrnM3Tn3Jw">
+    <body>container: Contains all &quot;View&quot; Calsses
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_ojbHEKLXEeyICrnM3Tn3Jw">
+    <body>Cointainer: Contains all &quot;View&quot; Classes
+</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_gIujgJwEEey-7e-KvcoBSA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -282,6 +290,14 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_qu-1IaLWEeyICrnM3Tn3Jw" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_qu7KwKLWEeyICrnM3Tn3Jw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_qu9nAKLWEeyICrnM3Tn3Jw" name="loginview" type="_tS-eQKCZEeymj5Gt4xNRFw" association="_qu7KwKLWEeyICrnM3Tn3Jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nCrGAKLXEeyICrnM3Tn3Jw" name="Container"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ruQEUKLXEeyICrnM3Tn3Jw" memberEnd="_ruQEU6LXEeyICrnM3Tn3Jw _ruQrYqLXEeyICrnM3Tn3Jw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ruQEUaLXEeyICrnM3Tn3Jw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ruQEUqLXEeyICrnM3Tn3Jw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ruQrYqLXEeyICrnM3Tn3Jw" name="gameclient" type="_-0JSgJwFEey-7e-KvcoBSA" association="_ruQEUKLXEeyICrnM3Tn3Jw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ruQEU6LXEeyICrnM3Tn3Jw" name="container" type="_nCrGAKLXEeyICrnM3Tn3Jw" association="_ruQEUKLXEeyICrnM3Tn3Jw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
