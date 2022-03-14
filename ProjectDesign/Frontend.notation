@@ -594,11 +594,6 @@
     <element xmi:type="uml:Class" href="Frontend.uml#_qjGQQKCcEeymj5Gt4xNRFw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qjHeYaCcEeymj5Gt4xNRFw" x="960" y="-40"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_lU25UKLXEeyICrnM3Tn3Jw" type="Comment_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_lU25UqLXEeyICrnM3Tn3Jw" type="Comment_BodyLabel"/>
-    <element xmi:type="uml:Comment" href="Frontend.uml#_lUzO8KLXEeyICrnM3Tn3Jw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lU25UaLXEeyICrnM3Tn3Jw" x="1548" y="1154"/>
-  </children>
   <children xmi:type="notation:Shape" xmi:id="_nCsUIKLXEeyICrnM3Tn3Jw" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_nCs7MKLXEeyICrnM3Tn3Jw" type="Class_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_nCs7MaLXEeyICrnM3Tn3Jw" type="Class_FloatingNameLabel">

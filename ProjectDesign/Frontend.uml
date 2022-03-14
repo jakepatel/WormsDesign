@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gIRQgJwEEey-7e-KvcoBSA" name="Frontend">
-  <ownedComment xmi:type="uml:Comment" xmi:id="_lUzO8KLXEeyICrnM3Tn3Jw">
-    <body>container: Contains all &quot;View&quot; Calsses
-</body>
-  </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_ojbHEKLXEeyICrnM3Tn3Jw">
     <body>Cointainer: Contains all &quot;View&quot; Classes
 </body>
