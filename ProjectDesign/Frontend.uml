@@ -295,6 +295,20 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_ruQrYqLXEeyICrnM3Tn3Jw" name="gameclient" type="_-0JSgJwFEey-7e-KvcoBSA" association="_ruQEUKLXEeyICrnM3Tn3Jw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ruQEU6LXEeyICrnM3Tn3Jw" name="container" type="_nCrGAKLXEeyICrnM3Tn3Jw" association="_ruQEUKLXEeyICrnM3Tn3Jw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__VXpcKPKEeyvo4yfJB361Q" memberEnd="__VgzYKPKEeyvo4yfJB361Q __VhacqPKEeyvo4yfJB361Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VgMUKPKEeyvo4yfJB361Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VgMUaPKEeyvo4yfJB361Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__VhacqPKEeyvo4yfJB361Q" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="__VXpcKPKEeyvo4yfJB361Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__VgzYKPKEeyvo4yfJB361Q" name="gameclient" type="_-0JSgJwFEey-7e-KvcoBSA" association="__VXpcKPKEeyvo4yfJB361Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_D1MDsKPLEeyvo4yfJB361Q" memberEnd="_D1MqwaPLEeyvo4yfJB361Q _D1MqxKPLEeyvo4yfJB361Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D1MDsaPLEeyvo4yfJB361Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D1MqwKPLEeyvo4yfJB361Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D1MqxKPLEeyvo4yfJB361Q" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_D1MDsKPLEeyvo4yfJB361Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D1MqwaPLEeyvo4yfJB361Q" name="container" type="_nCrGAKLXEeyICrnM3Tn3Jw" association="_D1MDsKPLEeyvo4yfJB361Q"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
