@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="__VuyEJwEEey-7e-KvcoBSA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwJwGEey-7e-KvcoBSA">
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwJwGEey-7e-KvcoBSA" name="Landscape">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_qS4cMKPMEeyvo4yfJB361Q" name="player1" visibility="private" type="_IHlMxJwGEey-7e-KvcoBSA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rUtsoKPMEeyvo4yfJB361Q" name="player2" visibility="private" type="_IHlMxJwGEey-7e-KvcoBSA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_smhSwKPMEeyvo4yfJB361Q" name="vehicleArray" visibility="private" type="_IHlMwZwGEey-7e-KvcoBSA">
@@ -28,6 +28,10 @@
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EPw_gKPOEeyvo4yfJB361Q" name="name" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZaYYsKS2EeyYSIccwCww6g" name="weaponArray" type="_IHlMwpwGEey-7e-KvcoBSA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gHWnAKS2EeyYSIccwCww6g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gHtMUKS2EeyYSIccwCww6g" value="*"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_BP7mwKPNEeyvo4yfJB361Q" name="Vehicle"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Ta5F4KPOEeyvo4yfJB361Q" name="All setters/getters"/>
@@ -65,5 +69,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_j0Ack6SCEeyxiNH0z4dIZg" name="vehicle" type="_IHlMwZwGEey-7e-KvcoBSA" association="_j0AckKSCEeyxiNH0z4dIZg">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j0BDoaSCEeyxiNH0z4dIZg" value="*"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VaSAUKS2EeyYSIccwCww6g" memberEnd="_VaVqsKS2EeyYSIccwCww6g _VaW40qS2EeyYSIccwCww6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VaT1gKS2EeyYSIccwCww6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VaT1gaS2EeyYSIccwCww6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VaW40qS2EeyYSIccwCww6g" name="vehicle" type="_IHlMwZwGEey-7e-KvcoBSA" association="_VaSAUKS2EeyYSIccwCww6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VaVqsKS2EeyYSIccwCww6g" name="weapon" type="_IHlMwpwGEey-7e-KvcoBSA" association="_VaSAUKS2EeyYSIccwCww6g"/>
   </packagedElement>
 </uml:Model>

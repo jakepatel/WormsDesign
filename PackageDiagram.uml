@@ -3,8 +3,16 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_t6b6AKSCEeyxiNH0z4dIZg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Package" xmi:id="_XmHt8KSDEeyxiNH0z4dIZg" name="ClientFrontend"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_YYWcIKSDEeyxiNH0z4dIZg" name="ServerBackend"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_bzbb4KSDEeyxiNH0z4dIZg" name="ClientController"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_djsfoKSDEeyxiNH0z4dIZg" name="GameEntities"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YYWcIKSDEeyxiNH0z4dIZg" name="Server Communication">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_odjgIKS6EeyYSIccwCww6g" importedPackage="_sWvKcKS1EeyYSIccwCww6g"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_o2dvYKS6EeyYSIccwCww6g" importedPackage="_djsfoKSDEeyxiNH0z4dIZg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bzbb4KSDEeyxiNH0z4dIZg" name="Client Controller"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TPfm8KS6EeyYSIccwCww6g" name="Client Communication"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XmHt8KSDEeyxiNH0z4dIZg" name="Client View Interface">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Jaa_QKS6EeyYSIccwCww6g" importedPackage="_bzbb4KSDEeyxiNH0z4dIZg"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_XUg7kKS6EeyYSIccwCww6g" importedPackage="_TPfm8KS6EeyYSIccwCww6g"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sWvKcKS1EeyYSIccwCww6g" name="Model"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_djsfoKSDEeyxiNH0z4dIZg" name="Game Entities"/>
+  </packagedElement>
 </uml:Model>
