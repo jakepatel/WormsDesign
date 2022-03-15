@@ -96,18 +96,25 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3Rk48pwFEey-7e-KvcoBSA" name="LoginView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="__5UhYKLVEeyICrnM3Tn3Jw" name="LoginButton">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__5UhYKLVEeyICrnM3Tn3Jw" name="usernameTextfield">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_CIRFMKLWEeyICrnM3Tn3Jw" name="CreateAccountButton">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EP0AgKLWEeyICrnM3Tn3Jw" name="AdminLoginButton">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CIRFMKLWEeyICrnM3Tn3Jw" name="passwordTextfield">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_whVqwKLVEeyICrnM3Tn3Jw" name="LoginView">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_5u4YYKLVEeyICrnM3Tn3Jw" name="LoginControl" direction="inout">
         <type xmi:type="uml:Class" href="ProjectDesign.uml#_K20l4Jp0EeyNBO8RsnDXjg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pAfz8KSgEeyAboEIrZ4xqw" name="getUsername">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xlkzYKSgEeyAboEIrZ4xqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qemJoKSgEeyAboEIrZ4xqw" name="getPassword">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vd-0wKSgEeyAboEIrZ4xqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
@@ -166,18 +173,6 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_-68P8KCYEeymj5Gt4xNRFw" name="GameGUI"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_AMglgKCZEeymj5Gt4xNRFw" name="main" isStatic="true"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_tS-eQKCZEeymj5Gt4xNRFw" name="LoginView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kOzSkKCaEeymj5Gt4xNRFw" name="PlayerLoginButton" visibility="private">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_2mFWcKCbEeymj5Gt4xNRFw" name="AdminLoginButton" visibility="private">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5e-PIKCbEeymj5Gt4xNRFw" name="CreatePlayerAccountButton" visibility="private">
-      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_huob4KCaEeymj5Gt4xNRFw" name="LoginView"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nQZwcKCcEeymj5Gt4xNRFw" name="DeletePlayerView">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1-CNEKCdEeymj5Gt4xNRFw" name="playerListScrollPane" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_2OoSm-GMEeiScrMAsbkENg"/>
@@ -189,7 +184,7 @@
       <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_9nbAUKCdEeymj5Gt4xNRFw" name="getPlayerSelected"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_R3nGkKCfEeymj5Gt4xNRFw" name="DeletePlayerView"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R3nGkKCfEeymj5Gt4xNRFw" name="deletePlayerView"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qjGQQKCcEeymj5Gt4xNRFw" name="ChangeSettingsView">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hES-EKCdEeymj5Gt4xNRFw" name="ScoreTextField" visibility="private">
@@ -280,13 +275,6 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_H3jl4qJrEeyhVvWCR9ikiA" name="gameview" type="_3Rk48JwFEey-7e-KvcoBSA" association="_H3i-0KJrEeyhVvWCR9ikiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_H3i-06JrEeyhVvWCR9ikiA" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_H3i-0KJrEeyhVvWCR9ikiA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_qu7KwKLWEeyICrnM3Tn3Jw" memberEnd="_qu9nAKLWEeyICrnM3Tn3Jw _qu-1IaLWEeyICrnM3Tn3Jw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qu8_8KLWEeyICrnM3Tn3Jw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qu8_8aLWEeyICrnM3Tn3Jw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_qu-1IaLWEeyICrnM3Tn3Jw" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_qu7KwKLWEeyICrnM3Tn3Jw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_qu9nAKLWEeyICrnM3Tn3Jw" name="loginview" type="_tS-eQKCZEeymj5Gt4xNRFw" association="_qu7KwKLWEeyICrnM3Tn3Jw"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nCrGAKLXEeyICrnM3Tn3Jw" name="Container"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_ruQEUKLXEeyICrnM3Tn3Jw" memberEnd="_ruQEU6LXEeyICrnM3Tn3Jw _ruQrYqLXEeyICrnM3Tn3Jw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ruQEUaLXEeyICrnM3Tn3Jw" source="org.eclipse.papyrus">
@@ -308,6 +296,74 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_D1MqxKPLEeyvo4yfJB361Q" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_D1MDsKPLEeyvo4yfJB361Q"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_D1MqwaPLEeyvo4yfJB361Q" name="container" type="_nCrGAKLXEeyICrnM3Tn3Jw" association="_D1MDsKPLEeyvo4yfJB361Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a6wBQKSgEeyAboEIrZ4xqw" name="InitialView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a6wBQaSgEeyAboEIrZ4xqw" name="LoginButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a6wBQqSgEeyAboEIrZ4xqw" name="CreateAccountButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a6wBQ6SgEeyAboEIrZ4xqw" name="AdminLoginButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dlr9gKSgEeyAboEIrZ4xqw" name="LoginButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eILmkKSgEeyAboEIrZ4xqw" name="CreateAccountButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eoooQKSgEeyAboEIrZ4xqw" name="AdminLoginButton">
+      <type xmi:type="uml:Class" href="java.uml#_2OM0wuGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_a6wBRKSgEeyAboEIrZ4xqw" name="LoginView">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_a6wBRaSgEeyAboEIrZ4xqw" name="LoginControl" direction="inout">
+        <type xmi:type="uml:Class" href="ProjectDesign.uml#_K20l4Jp0EeyNBO8RsnDXjg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2e5SwKSgEeyAboEIrZ4xqw" name="InitialView"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6alsQKSgEeyAboEIrZ4xqw" name="CreateAccountView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_89S5kKSgEeyAboEIrZ4xqw" name="usernameTextfield">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9kXgoKSgEeyAboEIrZ4xqw" name="passwordTextfield">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9-2dMKSgEeyAboEIrZ4xqw" name="passwordRetypedTextfield">
+      <type xmi:type="uml:Class" href="java.uml#_2Oqu1-GMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_E3704KShEeyAboEIrZ4xqw" name="CreateAccountView"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_H8M3IKShEeyAboEIrZ4xqw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_J0AGQKShEeyAboEIrZ4xqw" name="getUsername">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_J0AGQaShEeyAboEIrZ4xqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KP7NQKShEeyAboEIrZ4xqw" name="getPassword">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KP7NQaShEeyAboEIrZ4xqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KbDfMKShEeyAboEIrZ4xqw" name="getPasswordRetyped">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KbDfMaShEeyAboEIrZ4xqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UEcbUKShEeyAboEIrZ4xqw" memberEnd="_UEdpcKShEeyAboEIrZ4xqw _UEeQgaShEeyAboEIrZ4xqw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UEdCYKShEeyAboEIrZ4xqw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UEdCYaShEeyAboEIrZ4xqw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UEeQgaShEeyAboEIrZ4xqw" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_UEcbUKShEeyAboEIrZ4xqw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UEdpcKShEeyAboEIrZ4xqw" name="initialview" type="_a6wBQKSgEeyAboEIrZ4xqw" association="_UEcbUKShEeyAboEIrZ4xqw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Y2YgUKShEeyAboEIrZ4xqw" memberEnd="_Y2ZHYqShEeyAboEIrZ4xqw _Y2ZucKShEeyAboEIrZ4xqw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y2ZHYKShEeyAboEIrZ4xqw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y2ZHYaShEeyAboEIrZ4xqw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Y2ZucKShEeyAboEIrZ4xqw" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_Y2YgUKShEeyAboEIrZ4xqw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Y2ZHYqShEeyAboEIrZ4xqw" name="createaccountview" type="_6alsQKSgEeyAboEIrZ4xqw" association="_Y2YgUKShEeyAboEIrZ4xqw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
