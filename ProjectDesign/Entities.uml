@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__VL_gJwEEey-7e-KvcoBSA" name="Entities">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__VL_gJwEEey-7e-KvcoBSA" name="Entities">
   <packageImport xmi:type="uml:PackageImport" xmi:id="__VuyEJwEEey-7e-KvcoBSA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwJwGEey-7e-KvcoBSA" name="Landscape"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwZwGEey-7e-KvcoBSA" name="Vehicle"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwJwGEey-7e-KvcoBSA">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qS4cMKPMEeyvo4yfJB361Q" name="player1" visibility="private" type="_IHlMxJwGEey-7e-KvcoBSA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rUtsoKPMEeyvo4yfJB361Q" name="player2" visibility="private" type="_IHlMxJwGEey-7e-KvcoBSA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_smhSwKPMEeyvo4yfJB361Q" name="vehicleArray" visibility="private" type="_IHlMwZwGEey-7e-KvcoBSA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_08HPQKPNEeyvo4yfJB361Q" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v5nbMKPMEeyvo4yfJB361Q" name="mapName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RtLRwKPMEeyvo4yfJB361Q" name="updateTerrain"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T6h6IKPMEeyvo4yfJB361Q" name="Landscape"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hkd6kKPMEeyvo4yfJB361Q" name="updateVehiclePos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KS2jUKPOEeyvo4yfJB361Q" name="vehicle" type="_IHlMwZwGEey-7e-KvcoBSA" direction="inout"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3is3AKPNEeyvo4yfJB361Q" name="All setters/getters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwZwGEey-7e-KvcoBSA" name="Vehicle">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9bOmEKPMEeyvo4yfJB361Q" name="mapPos" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-d1SkKPMEeyvo4yfJB361Q" name="PlayerID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EPw_gKPOEeyvo4yfJB361Q" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BP7mwKPNEeyvo4yfJB361Q" name="Vehicle"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ta5F4KPOEeyvo4yfJB361Q" name="All setters/getters"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMwpwGEey-7e-KvcoBSA" name="Weapon">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4Ktn4JzrEeyOEvc0MSELZg" name="damage" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -19,7 +46,24 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_W-QNkJzsEeyOEvc0MSELZg" name="All setters/getters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WNy9QKPMEeyvo4yfJB361Q" name="Weapon"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="Admin"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMxJwGEey-7e-KvcoBSA" name="Player"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_d5848KSCEeyxiNH0z4dIZg" memberEnd="_d6E0wKSCEeyxiNH0z4dIZg _d6HRAqSCEeyxiNH0z4dIZg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d6DmoKSCEeyxiNH0z4dIZg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6DmoaSCEeyxiNH0z4dIZg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d6HRAqSCEeyxiNH0z4dIZg" name="player" type="_IHlMxJwGEey-7e-KvcoBSA" association="_d5848KSCEeyxiNH0z4dIZg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d6E0wKSCEeyxiNH0z4dIZg" type="_IHlMwJwGEey-7e-KvcoBSA" association="_d5848KSCEeyxiNH0z4dIZg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j0AckKSCEeyxiNH0z4dIZg" memberEnd="_j0Ack6SCEeyxiNH0z4dIZg _j0BDoqSCEeyxiNH0z4dIZg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j0AckaSCEeyxiNH0z4dIZg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j0AckqSCEeyxiNH0z4dIZg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j0BDoqSCEeyxiNH0z4dIZg" type="_IHlMwJwGEey-7e-KvcoBSA" association="_j0AckKSCEeyxiNH0z4dIZg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j0Ack6SCEeyxiNH0z4dIZg" name="vehicle" type="_IHlMwZwGEey-7e-KvcoBSA" association="_j0AckKSCEeyxiNH0z4dIZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j0BDoaSCEeyxiNH0z4dIZg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
