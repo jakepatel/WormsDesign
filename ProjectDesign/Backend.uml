@@ -77,16 +77,45 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_jEnrYKSgEeyjlpON1uxXsg" name="all getters/setters"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_q3FdwKSCEeyjlpON1uxXsg" name="AdminSettingModel"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_rFBzIKSCEeyjlpON1uxXsg" name="GameOverModel"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_rTmaoKSCEeyjlpON1uxXsg" name="LogOutModel"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_7fYswKSCEeyjlpON1uxXsg" name="MainMenuModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_q3FdwKSCEeyjlpON1uxXsg" name="AdminSettingModel">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OrWtYKS6EeysG9cbUugbxA" name="gameTitle" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PIn4MKS6EeysG9cbUugbxA" name="AdminSettingModel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XPsF8KS6EeysG9cbUugbxA" name="gameTitle">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y-2WcKS6EeysG9cbUugbxA" name="all getters/setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rFBzIKSCEeyjlpON1uxXsg" name="GameOverModel">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9fIR8KS5EeysG9cbUugbxA" name="finalScore" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A_eMMKS6EeysG9cbUugbxA" name="GameOverModel" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_C2djAKS6EeysG9cbUugbxA" name="finalScore">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Pmk_gKS6EeysG9cbUugbxA" name="all getters/setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7fYswKSCEeyjlpON1uxXsg" name="MainMenuModel">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_35G6EKS4EeysG9cbUugbxA" name="gameSelection" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-L1cYKS4EeysG9cbUugbxA" name="MainMenuModel" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DXkhcKS5EeysG9cbUugbxA" name="gameSelection">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EdTacKS5EeysG9cbUugbxA" name="all getters/setter"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_5fnGAKSFEeyjlpON1uxXsg" name="GameServer">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ObBMIKSKEeyjlpON1uxXsg" name="gameData" type="_eb3TMKSCEeyjlpON1uxXsg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_O0HooKSKEeyjlpON1uxXsg" name="logInData" type="_esXNUKSCEeyjlpON1uxXsg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_PilRIKSKEeyjlpON1uxXsg" name="leaderBrdData" type="_e8WKEKSCEeyjlpON1uxXsg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_P5t-wKSKEeyjlpON1uxXsg" name="mainMenuData" type="_7fYswKSCEeyjlpON1uxXsg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Qsjw8KSKEeyjlpON1uxXsg" name="LogOutData" type="_rTmaoKSCEeyjlpON1uxXsg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Qsjw8KSKEeyjlpON1uxXsg" name="LogOutData"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RB3SkKSKEeyjlpON1uxXsg" name="gameOverData" type="_rFBzIKSCEeyjlpON1uxXsg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RXQ60KSKEeyjlpON1uxXsg" name="AdminSettingData" type="_q3FdwKSCEeyjlpON1uxXsg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_qjNl4KSKEeyjlpON1uxXsg" name="GameServer"/>
@@ -115,16 +144,6 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_xL6VA6SGEeyjlpON1uxXsg" name="gameovermodel" type="_rFBzIKSCEeyjlpON1uxXsg" association="_xL6VAKSGEeyjlpON1uxXsg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xL68EKSGEeyjlpON1uxXsg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xL68EaSGEeyjlpON1uxXsg" value="1"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_y8Mm4KSGEeyjlpON1uxXsg" memberEnd="_y8Mm46SGEeyjlpON1uxXsg _y8NN8qSGEeyjlpON1uxXsg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y8Mm4aSGEeyjlpON1uxXsg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y8Mm4qSGEeyjlpON1uxXsg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_y8NN8qSGEeyjlpON1uxXsg" name="gameserver" type="_5fnGAKSFEeyjlpON1uxXsg" association="_y8Mm4KSGEeyjlpON1uxXsg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_y8Mm46SGEeyjlpON1uxXsg" name="logoutmodel" type="_rTmaoKSCEeyjlpON1uxXsg" association="_y8Mm4KSGEeyjlpON1uxXsg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y8NN8KSGEeyjlpON1uxXsg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y8NN8aSGEeyjlpON1uxXsg" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_00lr4KSGEeyjlpON1uxXsg" memberEnd="_00lr46SGEeyjlpON1uxXsg _00mS8KSGEeyjlpON1uxXsg">
