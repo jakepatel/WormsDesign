@@ -96,4 +96,25 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ZXC0KS6EeyYSIccwCww6g" id="(0.3,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ZXC0aS6EeyYSIccwCww6g" id="(0.6965174129353234,0.0)"/>
   </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pKkooKUyEeyp3sB2AItsNg" type="PackageImport_Edge" source="_TPg1EKS6EeyYSIccwCww6g" target="_sXhNkKS1EeyYSIccwCww6g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pKlPsKUyEeyp3sB2AItsNg" type="PackageImport_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pKlPsaUyEeyp3sB2AItsNg" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pKkooaUyEeyp3sB2AItsNg"/>
+    <element xmi:type="uml:PackageImport" href="PackageDiagram.uml#_pKcFwKUyEeyp3sB2AItsNg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pKkooqUyEeyp3sB2AItsNg" points="[700, 140, -643984, -643984]$[660, 303, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pKyrEKUyEeyp3sB2AItsNg" id="(0.7,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pKyrEaUyEeyp3sB2AItsNg" id="(0.5,0.22)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qaaf4KUyEeyp3sB2AItsNg" type="PackageImport_Edge" source="_TPg1EKS6EeyYSIccwCww6g" target="_djttwKSDEeyxiNH0z4dIZg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qabG8qUyEeyp3sB2AItsNg" type="PackageImport_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qyg20KUyEeyp3sB2AItsNg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qabG86UyEeyp3sB2AItsNg" x="1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qabG8KUyEeyp3sB2AItsNg"/>
+    <element xmi:type="uml:PackageImport" href="PackageDiagram.uml#_qaUZQKUyEeyp3sB2AItsNg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qabG8aUyEeyp3sB2AItsNg" points="[600, 140, -643984, -643984]$[520, 160, -643984, -643984]$[460, 222, -643984, -643984]$[360, 222, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qanUMKUyEeyp3sB2AItsNg" id="(0.2,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qan7QKUyEeyp3sB2AItsNg" id="(1.0,0.594059405940594)"/>
+  </edges>
 </notation:Diagram>

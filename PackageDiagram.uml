@@ -7,7 +7,10 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_odjgIKS6EeyYSIccwCww6g" importedPackage="_sWvKcKS1EeyYSIccwCww6g"/>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_o2dvYKS6EeyYSIccwCww6g" importedPackage="_djsfoKSDEeyxiNH0z4dIZg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_TPfm8KS6EeyYSIccwCww6g" name="Client Communication"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TPfm8KS6EeyYSIccwCww6g" name="Client Communication">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_pKcFwKUyEeyp3sB2AItsNg" importedPackage="_sWvKcKS1EeyYSIccwCww6g"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_qaUZQKUyEeyp3sB2AItsNg" importedPackage="_djsfoKSDEeyxiNH0z4dIZg"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_XmHt8KSDEeyxiNH0z4dIZg" name="Client User Interface">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_XUg7kKS6EeyYSIccwCww6g" importedPackage="_TPfm8KS6EeyYSIccwCww6g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_sWvKcKS1EeyYSIccwCww6g" name="Model"/>

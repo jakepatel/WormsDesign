@@ -210,13 +210,6 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_3Rk49JwFEey-7e-KvcoBSA" name="LogoutView">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_ULHmoKLWEeyICrnM3Tn3Jw" name="LogoutView">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aLTncKLWEeyICrnM3Tn3Jw" name="LogoutControl">
-        <type xmi:type="uml:Class" href="ProjectDesign.uml#_D5ZZYJp3EeyNBO8RsnDXjg"/>
-      </ownedParameter>
-    </ownedOperation>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_-0JSgJwFEey-7e-KvcoBSA" name="GameClient">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_JgGGMKCYEeymj5Gt4xNRFw" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
@@ -324,13 +317,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-jNFo6JqEeyhVvWCR9ikiA" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_-jL3gKJqEeyhVvWCR9ikiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-jNFoKJqEeyhVvWCR9ikiA" name="adminsettingview" type="_3RkR4JwFEey-7e-KvcoBSA" association="_-jL3gKJqEeyhVvWCR9ikiA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_BMnX4KJrEeyhVvWCR9ikiA" memberEnd="_BMn-8qJrEeyhVvWCR9ikiA _BMomAqJrEeyhVvWCR9ikiA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BMn-8KJrEeyhVvWCR9ikiA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BMn-8aJrEeyhVvWCR9ikiA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_BMomAqJrEeyhVvWCR9ikiA" name="logoutview" type="_3Rk49JwFEey-7e-KvcoBSA" association="_BMnX4KJrEeyhVvWCR9ikiA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_BMn-8qJrEeyhVvWCR9ikiA" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_BMnX4KJrEeyhVvWCR9ikiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_CXyxkKJrEeyhVvWCR9ikiA" memberEnd="_CXz_sqJrEeyhVvWCR9ikiA _CXz_taJrEeyhVvWCR9ikiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CXz_sKJrEeyhVvWCR9ikiA" source="org.eclipse.papyrus">
