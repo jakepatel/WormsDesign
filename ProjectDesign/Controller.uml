@@ -55,7 +55,28 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_g2l3IKSsEeysG9cbUugbxA" name="GameControl"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_jGCKMKSsEeysG9cbUugbxA" name="AdminSettingControl"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_jTD5kKSsEeysG9cbUugbxA" name="InitialControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_jesh0KSsEeysG9cbUugbxA" name="ChangeSettingsControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jesh0KSsEeysG9cbUugbxA" name="ChangeSettingsControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aJML8KVlEey3Iregu8SSNw" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5wKHwKVnEey3Iregu8SSNw" name="Client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA" aggregation="shared"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rqdDQKVlEey3Iregu8SSNw" name="ChangeSettingControl" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5gKO0KVlEey3Iregu8SSNw" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OBJUsKVoEey3Iregu8SSNw" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_F3aNcKVoEey3Iregu8SSNw" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dxkggKVoEey3Iregu8SSNw" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gtAW4KVoEey3Iregu8SSNw" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pq--gKVoEey3Iregu8SSNw" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_yBBi0KSsEeysG9cbUugbxA" memberEnd="_yBDYAKSsEeysG9cbUugbxA _yBDYA6SsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yBCw8KSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yBCw8aSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
