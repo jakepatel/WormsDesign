@@ -21,7 +21,6 @@ Associated with all &quot;View&quot; Classes
   <packagedElement xmi:type="uml:Class" xmi:id="_0MMLkJp0EeyNBO8RsnDXjg" name="LeaderboardView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_2sx5AJp0EeyNBO8RsnDXjg" name="LeaderboardModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_4WN8AJp0EeyNBO8RsnDXjg" name="LeaderboardControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_L5-PgJp1EeyNBO8RsnDXjg" name="GameRules"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_M3RlQJp1EeyNBO8RsnDXjg" name="GameView"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_PZYVoJp1EeyNBO8RsnDXjg" name="GameModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_RMR2oJp1EeyNBO8RsnDXjg" name="GameControl"/>
@@ -393,13 +392,6 @@ Associated with all &quot;View&quot; Classes
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1OY6FKJkEeyhVvWCR9ikiA" name="gameovercontrol" type="_tC14YJp2EeyNBO8RsnDXjg" association="_1OYTAKJkEeyhVvWCR9ikiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1OY6EaJkEeyhVvWCR9ikiA" name="gameovermodel" type="_u2wGAJp2EeyNBO8RsnDXjg" association="_1OYTAKJkEeyhVvWCR9ikiA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_TcwOwKJoEeyhVvWCR9ikiA" memberEnd="_Tcw10qJoEeyhVvWCR9ikiA _Tcw11aJoEeyhVvWCR9ikiA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tcw10KJoEeyhVvWCR9ikiA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tcw10aJoEeyhVvWCR9ikiA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Tcw11aJoEeyhVvWCR9ikiA" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_TcwOwKJoEeyhVvWCR9ikiA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Tcw10qJoEeyhVvWCR9ikiA" name="gamerules" type="_L5-PgJp1EeyNBO8RsnDXjg" association="_TcwOwKJoEeyhVvWCR9ikiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_4M4usKJoEeyhVvWCR9ikiA" memberEnd="_4M5VwqJoEeyhVvWCR9ikiA _4M580qJoEeyhVvWCR9ikiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4M5VwKJoEeyhVvWCR9ikiA" source="org.eclipse.papyrus">

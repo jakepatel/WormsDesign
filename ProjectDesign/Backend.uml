@@ -49,7 +49,7 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_IMb6QKSbEeyjlpON1uxXsg" name="all getters/setters"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_e8WKEKSCEeyjlpON1uxXsg" name="LeaderBoardModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_e8WKEKSCEeyjlpON1uxXsg" name="LeaderboardModel">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1N_d0KSbEeyjlpON1uxXsg" name="leaderBoardData" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_16hq0-GMEeiScrMAsbkENg"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RgDzAKShEeyjlpON1uxXsg"/>
@@ -207,7 +207,7 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_4sKCQKSlEeyjlpON1uxXsg" name="all getters/setters"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_1WRhAKSkEeyjlpON1uxXsg" name="AdminModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_1WRhAKSkEeyjlpON1uxXsg" name="AdminLoginModel">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_MAvRUKSmEeyjlpON1uxXsg" name="username" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
@@ -224,7 +224,7 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_YYQAkKSmEeyjlpON1uxXsg" name="all getters/setters"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_1-Pf8KSkEeyjlpON1uxXsg" name="DeleteModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_1-Pf8KSkEeyjlpON1uxXsg" name="DeletePlayerModel">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_v0bXIKSmEeyjlpON1uxXsg" name="id" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
