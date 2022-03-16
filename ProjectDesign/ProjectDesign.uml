@@ -40,7 +40,6 @@ Associated with all &quot;View&quot; Classes
   <packagedElement xmi:type="uml:Class" xmi:id="_u2wGAJp2EeyNBO8RsnDXjg" name="GameOverModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zb_LwJp2EeyNBO8RsnDXjg" name="Landscape"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_50pW8Jp2EeyNBO8RsnDXjg" name="LogoutView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Bb9toJp3EeyNBO8RsnDXjg" name="LogoutModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_D5ZZYJp3EeyNBO8RsnDXjg" name="LogoutControl"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_vpJg4KCYEeymj5Gt4xNRFw" name="GameGUI"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_yXUagKCcEeymj5Gt4xNRFw" name="DeletePlayerView"/>
@@ -58,7 +57,6 @@ Associated with all &quot;View&quot; Classes
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVws6GREeywBZirIN9jeg" name="Player">
     <generalization xmi:type="uml:Generalization" xmi:id="_HZ46YKLXEeyICrnM3Tn3Jw" general="_MuVwsKGREeywBZirIN9jeg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_bscHsKGREeywBZirIN9jeg" name="LogoutModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hy7k0KGREeywBZirIN9jeg" name="GameOverModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_jWg3cKGREeywBZirIN9jeg" name="AdminSettingModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_mK98EKGREeywBZirIN9jeg" name="LeaderboardModel"/>
@@ -140,16 +138,6 @@ Associated with all &quot;View&quot; Classes
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_lFEKGTEeywBZirIN9jeg" value="*"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_UXF_46GTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_UXF_4KGTEeywBZirIN9jeg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_YbGA0KGTEeywBZirIN9jeg" memberEnd="_YbGn4qGTEeywBZirIN9jeg _YbGn5aGTEeywBZirIN9jeg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YbGn4KGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YbGn4aGTEeywBZirIN9jeg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YbGn5aGTEeywBZirIN9jeg" name="gameserver" type="_ZkqocJp2EeyNBO8RsnDXjg" association="_YbGA0KGTEeywBZirIN9jeg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YbGn4qGTEeywBZirIN9jeg" name="logoutmodel" type="_bscHsKGREeywBZirIN9jeg" association="_YbGA0KGTEeywBZirIN9jeg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YbGn46GTEeywBZirIN9jeg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YbGn5KGTEeywBZirIN9jeg" value="1"/>
-    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_eDvEUKGTEeywBZirIN9jeg" memberEnd="_eDvrYqGTEeywBZirIN9jeg _eDwScqGTEeywBZirIN9jeg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eDvrYKGTEeywBZirIN9jeg" source="org.eclipse.papyrus">
@@ -336,13 +324,6 @@ Associated with all &quot;View&quot; Classes
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ivfV1aJkEeyhVvWCR9ikiA" name="deleteplayercontrol" type="_0u7LEKCcEeymj5Gt4xNRFw" association="_iveuwKJkEeyhVvWCR9ikiA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ivfV0qJkEeyhVvWCR9ikiA" name="deleteplayerview" type="_yXUagKCcEeymj5Gt4xNRFw" association="_iveuwKJkEeyhVvWCR9ikiA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_lBqz0KJkEeyhVvWCR9ikiA" memberEnd="_lBra4qJkEeyhVvWCR9ikiA _lBsB8KJkEeyhVvWCR9ikiA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lBra4KJkEeyhVvWCR9ikiA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lBra4aJkEeyhVvWCR9ikiA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_lBsB8KJkEeyhVvWCR9ikiA" name="logoutcontrol" type="_D5ZZYJp3EeyNBO8RsnDXjg" association="_lBqz0KJkEeyhVvWCR9ikiA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_lBra4qJkEeyhVvWCR9ikiA" name="logoutmodel" type="_Bb9toJp3EeyNBO8RsnDXjg" association="_lBqz0KJkEeyhVvWCR9ikiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_mqDG4KJkEeyhVvWCR9ikiA" memberEnd="_mqDt8qJkEeyhVvWCR9ikiA _mqEVAqJkEeyhVvWCR9ikiA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mqDt8KJkEeyhVvWCR9ikiA" source="org.eclipse.papyrus">
