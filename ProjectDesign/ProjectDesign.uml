@@ -51,12 +51,12 @@ Associated with all &quot;View&quot; Classes
   <packagedElement xmi:type="uml:Class" xmi:id="_5lEZwKGQEeywBZirIN9jeg" name="ChangeSettingsModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_AKICMKGREeywBZirIN9jeg" name="DeletePlayerModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVJoKGREeywBZirIN9jeg" name="Vehicle"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsKGREeywBZirIN9jeg" name="Admin"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsKGREeywBZirIN9jeg" name="Admin">
+    <generalization xmi:type="uml:Generalization" xmi:id="_bMoV0KUsEeyp3sB2AItsNg" general="_MuVws6GREeywBZirIN9jeg"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsaGREeywBZirIN9jeg" name="Landscape"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_MuVwsqGREeywBZirIN9jeg" name="Weapon"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_MuVws6GREeywBZirIN9jeg" name="Player">
-    <generalization xmi:type="uml:Generalization" xmi:id="_HZ46YKLXEeyICrnM3Tn3Jw" general="_MuVwsKGREeywBZirIN9jeg"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuVws6GREeywBZirIN9jeg" name="Player"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hy7k0KGREeywBZirIN9jeg" name="GameOverModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_jWg3cKGREeywBZirIN9jeg" name="AdminSettingModel"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_mK98EKGREeywBZirIN9jeg" name="LeaderboardModel"/>

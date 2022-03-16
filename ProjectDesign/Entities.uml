@@ -24,7 +24,7 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_-d1SkKPMEeyvo4yfJB361Q" name="PlayerID" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EPw_gKPOEeyvo4yfJB361Q" name="name" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -52,12 +52,9 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_W-QNkJzsEeyOEvc0MSELZg" name="All setters/getters"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_WNy9QKPMEeyvo4yfJB361Q" name="Weapon"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="AdminSettingControl">
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="Admin">
     <generalization xmi:type="uml:Generalization" xmi:id="_Wm0AsKS9EeysG9cbUugbxA" general="_IHlMxJwGEey-7e-KvcoBSA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_8hDt4KS-EeysG9cbUugbxA" name="id" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_87UA8KS-EeysG9cbUugbxA" name="username" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8hDt4KS-EeysG9cbUugbxA" name="adminID" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_1EWPQKS_EeysG9cbUugbxA" name="All getters/setters"/>
@@ -71,14 +68,17 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_IHlMxJwGEey-7e-KvcoBSA" name="Player">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_MEfRcKS9EeysG9cbUugbxA" name="id" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MEfRcKS9EeysG9cbUugbxA" name="id" visibility="protected">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_pxlzgKS9EeysG9cbUugbxA" name="username" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pxlzgKS9EeysG9cbUugbxA" name="username" visibility="protected">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_oi0d0KS-EeysG9cbUugbxA" name="stats">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oi0d0KS-EeysG9cbUugbxA" name="stats" visibility="protected">
       <type xmi:type="uml:Class" href="java.uml#_1_9kceGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VQJJQKUsEeyp3sB2AItsNg" name="password" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_mH-ogKS9EeysG9cbUugbxA" name="Player">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_AEiRIKS-EeysG9cbUugbxA" name="id">
