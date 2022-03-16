@@ -52,16 +52,55 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_W-QNkJzsEeyOEvc0MSELZg" name="All setters/getters"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_WNy9QKPMEeyvo4yfJB361Q" name="Weapon"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="Admin"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMxJwGEey-7e-KvcoBSA" name="Player"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_d5848KSCEeyxiNH0z4dIZg" memberEnd="_d6E0wKSCEeyxiNH0z4dIZg _d6HRAqSCEeyxiNH0z4dIZg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMw5wGEey-7e-KvcoBSA" name="AdminSettingControl">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Wm0AsKS9EeysG9cbUugbxA" general="_IHlMxJwGEey-7e-KvcoBSA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8hDt4KS-EeysG9cbUugbxA" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_87UA8KS-EeysG9cbUugbxA" name="username" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1EWPQKS_EeysG9cbUugbxA" name="All getters/setters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1EYEcKS_EeysG9cbUugbxA" name="Admin">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1EYEcaS_EeysG9cbUugbxA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1EYEcqS_EeysG9cbUugbxA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IHlMxJwGEey-7e-KvcoBSA" name="Player">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MEfRcKS9EeysG9cbUugbxA" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pxlzgKS9EeysG9cbUugbxA" name="username" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oi0d0KS-EeysG9cbUugbxA" name="stats">
+      <type xmi:type="uml:Class" href="java.uml#_1_9kceGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mH-ogKS9EeysG9cbUugbxA" name="Player">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AEiRIKS-EeysG9cbUugbxA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BXIhcKS-EeysG9cbUugbxA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uNzDoKS-EeysG9cbUugbxA" name="stats">
+        <type xmi:type="uml:Class" href="java.uml#_1_9kceGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7E7jkKS9EeysG9cbUugbxA" name="All getters/setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_d5848KSCEeyxiNH0z4dIZg" name="Landscape" memberEnd="_d6E0wKSCEeyxiNH0z4dIZg _d6HRAqSCEeyxiNH0z4dIZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d6DmoKSCEeyxiNH0z4dIZg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6DmoaSCEeyxiNH0z4dIZg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_d6HRAqSCEeyxiNH0z4dIZg" name="player" type="_IHlMxJwGEey-7e-KvcoBSA" association="_d5848KSCEeyxiNH0z4dIZg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_d6E0wKSCEeyxiNH0z4dIZg" type="_IHlMwJwGEey-7e-KvcoBSA" association="_d5848KSCEeyxiNH0z4dIZg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_j0AckKSCEeyxiNH0z4dIZg" memberEnd="_j0Ack6SCEeyxiNH0z4dIZg _j0BDoqSCEeyxiNH0z4dIZg">
+  <packagedElement xmi:type="uml:Association" xmi:id="_j0AckKSCEeyxiNH0z4dIZg" name="Landscape" memberEnd="_j0Ack6SCEeyxiNH0z4dIZg _j0BDoqSCEeyxiNH0z4dIZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j0AckaSCEeyxiNH0z4dIZg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j0AckqSCEeyxiNH0z4dIZg" key="nature" value="UML_Nature"/>
     </eAnnotations>
