@@ -499,6 +499,13 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3SA2oKXxEeyHO47WlvfyUA" memberEnd="_3SKnoKXxEeyHO47WlvfyUA _3SL1wqXxEeyHO47WlvfyUA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3SKAkKXxEeyHO47WlvfyUA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3SKAkaXxEeyHO47WlvfyUA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3SL1wqXxEeyHO47WlvfyUA" name="adminloginview" type="_0mfp4KSkEey_1r6ffQPt3w" association="_3SA2oKXxEeyHO47WlvfyUA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3SKnoKXxEeyHO47WlvfyUA" name="gamegui" type="_xpfoAKCYEeymj5Gt4xNRFw" association="_3SA2oKXxEeyHO47WlvfyUA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H2kkIJzpEeyOEvc0MSELZg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H2nAYJzpEeyOEvc0MSELZg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
