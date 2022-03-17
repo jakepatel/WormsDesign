@@ -14,22 +14,22 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_NOJQ4qSsEeysG9cbUugbxA" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKSAAKStEeysG9cbUugbxA" name="CopyOf_client_16" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKSAAKStEeysG9cbUugbxA" name="client" visibility="private">
       <type xmi:type="uml:Class" href="Frontend.uml#_-0JSgJwFEey-7e-KvcoBSA"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKSAAaStEeysG9cbUugbxA" name="CopyOf_container_16" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKSAAaStEeysG9cbUugbxA" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_NOJQ46SsEeysG9cbUugbxA" name="GameGUI"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_NOJQ5KSsEeysG9cbUugbxA" name="main" isStatic="true"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_kKSAAqStEeysG9cbUugbxA" name="CopyOf_GameGUI_16"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_kKSAA6StEeysG9cbUugbxA" name="CopyOf_main_16" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kKSAAqStEeysG9cbUugbxA" name="GameGUI"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kKSAA6StEeysG9cbUugbxA" name="main" isStatic="true"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OQ1c8KSsEeysG9cbUugbxA" name="GameClient">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OQ1c8aSsEeysG9cbUugbxA" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_rwkb8aStEeysG9cbUugbxA" name="CopyOf_container_7" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rwkb8aStEeysG9cbUugbxA" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OQ1c8qSsEeysG9cbUugbxA" name="handleMessageFromServer"/>
@@ -38,15 +38,36 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OQ1c9aSsEeysG9cbUugbxA" name="GameClient"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OQ1c9qSsEeysG9cbUugbxA" name="assignContainer"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OQ1c96SsEeysG9cbUugbxA" name="connectionClosed"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb8KStEeysG9cbUugbxA" name="CopyOf_handleMessageFromServer_7"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb8qStEeysG9cbUugbxA" name="CopyOf_GameClient_7"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb86StEeysG9cbUugbxA" name="CopyOf_connectionClosed_7"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9KStEeysG9cbUugbxA" name="CopyOf_assignContainer_7"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9aStEeysG9cbUugbxA" name="CopyOf_connectionException_7"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9qStEeysG9cbUugbxA" name="CopyOf_connectionEstablished_7"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb8KStEeysG9cbUugbxA" name="handleMessageFromServer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb8qStEeysG9cbUugbxA" name="GameClient"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb86StEeysG9cbUugbxA" name="connectionClosed"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9KStEeysG9cbUugbxA" name="assignContainer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9aStEeysG9cbUugbxA" name="connectionException"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rwkb9qStEeysG9cbUugbxA" name="connectionEstablished"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_PJJlAKSsEeysG9cbUugbxA" name="Container"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_flIPQKSsEeysG9cbUugbxA" name="LeaderboardControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_flIPQKSsEeysG9cbUugbxA" name="LeaderboardControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xTa_oKWhEeyKj8XrxpZoJQ" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xTdb4KWhEeyKj8XrxpZoJQ" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aGInYKWmEeyKj8XrxpZoJQ" name="LeaderboardControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aGInYaWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aGInYqWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_81gwgKWmEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_81gwgaWmEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_81ilsKWmEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_81ilsaWmEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fyyQwKSsEeysG9cbUugbxA" name="LogInControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ekAsQKV3EeyX6elw9nF-zw" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
@@ -56,10 +77,89 @@
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_MKbi0Jp0EeyNBO8RsnDXjg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_fzED4KV4EeyX6elw9nF-zw" name="setLoginData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_f-kaYKWmEeyKj8XrxpZoJQ" name="LoginControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_f-kaYaWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_f-kaYqWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WNtu4KWnEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WNtu4aWnEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WNu9AKWnEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WNu9AaWnEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_f89gcKSsEeysG9cbUugbxA" name="DeletePlayerControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_gKVOEKSsEeysG9cbUugbxA" name="MainMenuControl"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_gWI1cKSsEeysG9cbUugbxA" name="LogOutControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_f89gcKSsEeysG9cbUugbxA" name="DeletePlayerControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xHOWsKWhEeyKj8XrxpZoJQ" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xHQL4KWhEeyKj8XrxpZoJQ" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TYiuAKWmEeyKj8XrxpZoJQ" name="DeletePlayerControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XITkUKWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_X1uD8KWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8nMAoKWmEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8nMAoaWmEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8nNOwKWmEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8nNOwaWmEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gKVOEKSsEeysG9cbUugbxA" name="MainMenuControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w63VsKWhEeyKj8XrxpZoJQ" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w65x8KWhEeyKj8XrxpZoJQ" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IbqwwKWmEeyKj8XrxpZoJQ" name="MainMenuControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_N5fEUKWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O1xGYKWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8VnvgKWmEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8VnvgaWmEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8Vo9oKWmEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8Vo9oaWmEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gWI1cKSsEeysG9cbUugbxA" name="LogOutControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wqQt4KWhEeyKj8XrxpZoJQ" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wqTKIKWhEeyKj8XrxpZoJQ" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ybhTUKWlEeyKj8XrxpZoJQ" name="LogOutControl" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-NrSwKWlEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_B6lpYKWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8Fzx4KWmEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8Fzx4aWmEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8F0Y8KWmEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8F0Y8aWmEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_gonskKSsEeysG9cbUugbxA" name="GameOverviewControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8oLOAKV4EeyX6elw9nF-zw" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
@@ -71,8 +171,39 @@
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_d5TQcKV5EeyX6elw9nF-zw" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XpwPEKWnEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XpwPEaWnEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XpxdMKWnEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XpxdMaWnEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_g2l3IKSsEeysG9cbUugbxA" name="GameControl"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_g2l3IKSsEeysG9cbUugbxA" name="GameControl">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yF_sEKWhEeyKj8XrxpZoJQ" name="container" visibility="private">
+      <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yGCIUKWhEeyKj8XrxpZoJQ" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eBebkKWmEeyKj8XrxpZoJQ" name="GameControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eBebkaWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eBebkqWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9jR1cKWmEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9jR1caWmEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9jTDkKWmEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9jTDkaWmEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_jGCKMKSsEeysG9cbUugbxA" name="AdminSettingControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8mVlgKV5EeyX6elw9nF-zw" name="admin" visibility="private" aggregation="shared">
       <type xmi:type="uml:Class" href="ProjectDesign.uml#_67VusJp1EeyNBO8RsnDXjg"/>
@@ -85,7 +216,7 @@
         <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_YTvgsKV6EeyX6elw9nF-zw" name="ChangeSettingControl" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YTvgsKV6EeyX6elw9nF-zw" name="AdminSettingControl" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_YTvgsaV6EeyX6elw9nF-zw" name="container">
         <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
       </ownedParameter>
@@ -103,6 +234,21 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="__f23sKV2EeyX6elw9nF-zw" name="container" visibility="private">
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EV1uYKWnEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EV1uYaWnEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EV28gKWnEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EV28gaWnEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FG_egKWnEeyKj8XrxpZoJQ" name="InitalControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IJFWgKWnEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_jesh0KSsEeysG9cbUugbxA" name="ChangeSettingsControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_aJML8KVlEey3Iregu8SSNw" name="container" visibility="private">
@@ -131,120 +277,84 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yBCw8aSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yBDYA6SsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_yBBi0KSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_yBDYAKSsEeysG9cbUugbxA" name="class8" type="_gKVOEKSsEeysG9cbUugbxA" association="_yBBi0KSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yBDYAaSsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yBDYAqSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yBDYAKSsEeysG9cbUugbxA" name="MainMenuControl" type="_gKVOEKSsEeysG9cbUugbxA" association="_yBBi0KSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_zjDWQKSsEeysG9cbUugbxA" memberEnd="_zjD9UqSsEeysG9cbUugbxA _zjEkYKSsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zjD9UKSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjD9UaSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_zjEkYKSsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_zjDWQKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_zjD9UqSsEeysG9cbUugbxA" name="class7" type="_f89gcKSsEeysG9cbUugbxA" association="_zjDWQKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zjD9U6SsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zjD9VKSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zjD9UqSsEeysG9cbUugbxA" name="DeletePlayerControl" type="_f89gcKSsEeysG9cbUugbxA" association="_zjDWQKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_1gU7QKSsEeysG9cbUugbxA" memberEnd="_1gU7Q6SsEeysG9cbUugbxA _1gViUqSsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1gU7QaSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1gU7QqSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1gViUqSsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_1gU7QKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_1gU7Q6SsEeysG9cbUugbxA" name="class5" type="_flIPQKSsEeysG9cbUugbxA" association="_1gU7QKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1gViUKSsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1gViUaSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1gU7Q6SsEeysG9cbUugbxA" name="LeaderboardControl" type="_flIPQKSsEeysG9cbUugbxA" association="_1gU7QKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_7BjvMKSsEeysG9cbUugbxA" memberEnd="_7BkWQKSsEeysG9cbUugbxA _7BkWQ6SsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7BjvMaSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7BjvMqSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7BkWQ6SsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_7BjvMKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_7BkWQKSsEeysG9cbUugbxA" name="class6" type="_fyyQwKSsEeysG9cbUugbxA" association="_7BjvMKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7BkWQaSsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7BkWQqSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7BkWQKSsEeysG9cbUugbxA" name="LogInControl" type="_fyyQwKSsEeysG9cbUugbxA" association="_7BjvMKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8sZgYKSsEeysG9cbUugbxA" memberEnd="_8saHcqSsEeysG9cbUugbxA _8saHdaSsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8saHcKSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8saHcaSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_8saHdaSsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_8sZgYKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_8saHcqSsEeysG9cbUugbxA" name="class11" type="_g2l3IKSsEeysG9cbUugbxA" association="_8sZgYKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8saHc6SsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8saHdKSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8saHcqSsEeysG9cbUugbxA" name="GameControl" type="_g2l3IKSsEeysG9cbUugbxA" association="_8sZgYKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_-bLWYKSsEeysG9cbUugbxA" memberEnd="_-bL9cqSsEeysG9cbUugbxA _-bL9daSsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-bL9cKSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-bL9caSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-bL9daSsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_-bLWYKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_-bL9cqSsEeysG9cbUugbxA" name="class10" type="_gonskKSsEeysG9cbUugbxA" association="_-bLWYKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-bL9c6SsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-bL9dKSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-bL9cqSsEeysG9cbUugbxA" name="GameOverviewControl" type="_gonskKSsEeysG9cbUugbxA" association="_-bLWYKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__3gxgKSsEeysG9cbUugbxA" memberEnd="__3hYkqSsEeysG9cbUugbxA __3hYlaSsEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__3hYkKSsEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__3hYkaSsEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="__3hYlaSsEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="__3gxgKSsEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="__3hYkqSsEeysG9cbUugbxA" name="class9" type="_gWI1cKSsEeysG9cbUugbxA" association="__3gxgKSsEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__3hYk6SsEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__3hYlKSsEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__3hYkqSsEeysG9cbUugbxA" name="LogOutControl" type="_gWI1cKSsEeysG9cbUugbxA" association="__3gxgKSsEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_CMMJ4KStEeysG9cbUugbxA" memberEnd="_CMMJ46StEeysG9cbUugbxA _CMMw8qStEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CMMJ4aStEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMMJ4qStEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_CMMw8qStEeysG9cbUugbxA" name="gameclient" type="_OQ1c8KSsEeysG9cbUugbxA" association="_CMMJ4KStEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_CMMJ46StEeysG9cbUugbxA" name="container" type="_PJJlAKSsEeysG9cbUugbxA" association="_CMMJ4KStEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMMw8KStEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMMw8aStEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CMMJ46StEeysG9cbUugbxA" name="container" type="_PJJlAKSsEeysG9cbUugbxA" association="_CMMJ4KStEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Dj6x0KStEeysG9cbUugbxA" memberEnd="_Dj6x06StEeysG9cbUugbxA _Dj7Y4qStEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dj6x0aStEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dj6x0qStEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Dj7Y4qStEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_Dj6x0KStEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Dj6x06StEeysG9cbUugbxA" name="class14" type="_jesh0KSsEeysG9cbUugbxA" association="_Dj6x0KStEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dj7Y4KStEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dj7Y4aStEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Dj6x06StEeysG9cbUugbxA" name="ChangeSettingsControl" type="_jesh0KSsEeysG9cbUugbxA" association="_Dj6x0KStEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_FaQBUKStEeysG9cbUugbxA" memberEnd="_FaQoYqStEeysG9cbUugbxA _FaQoZaStEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FaQoYKStEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FaQoYaStEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_FaQoZaStEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_FaQBUKStEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_FaQoYqStEeysG9cbUugbxA" name="gameclient" type="_OQ1c8KSsEeysG9cbUugbxA" association="_FaQBUKStEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FaQoY6StEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaQoZKStEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FaQoYqStEeysG9cbUugbxA" name="gameclient" type="_OQ1c8KSsEeysG9cbUugbxA" association="_FaQBUKStEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_HVdJwKStEeysG9cbUugbxA" memberEnd="_HVdJw6StEeysG9cbUugbxA _HVdw0qStEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HVdJwaStEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HVdJwqStEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_HVdw0qStEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_HVdJwKStEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_HVdJw6StEeysG9cbUugbxA" name="class13" type="_jTD5kKSsEeysG9cbUugbxA" association="_HVdJwKStEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HVdw0KStEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HVdw0aStEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HVdJw6StEeysG9cbUugbxA" name="InitialControl" type="_jTD5kKSsEeysG9cbUugbxA" association="_HVdJwKStEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_H85kQKStEeysG9cbUugbxA" memberEnd="_H86LUqStEeysG9cbUugbxA _H86LVaStEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H86LUKStEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H86LUaStEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_H86LVaStEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_H85kQKStEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_H86LUqStEeysG9cbUugbxA" name="class12" type="_jGCKMKSsEeysG9cbUugbxA" association="_H85kQKStEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H86LU6StEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H86LVKStEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H86LUqStEeysG9cbUugbxA" name="AdminSettingControl" type="_jGCKMKSsEeysG9cbUugbxA" association="_H85kQKStEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3WjyMKSuEeysG9cbUugbxA" name="CreateAccountControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_DtfyQKV2EeyX6elw9nF-zw" name="container" visibility="private">
@@ -258,6 +368,16 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_aU5LAKV4EeyX6elw9nF-zw" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_olueQKV2EeyX6elw9nF-zw" name="setAccountData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YPJbIKWnEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YPJbIaWnEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YPKCMKWnEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YPKCMaWnEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3siCMKSuEeysG9cbUugbxA" name="AdminLoginControl">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_oTsywKV5EeyX6elw9nF-zw" name="client" visibility="private" type="_OQ1c8KSsEeysG9cbUugbxA"/>
@@ -268,25 +388,35 @@
       <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_1apa4KV5EeyX6elw9nF-zw" name="setAdminLoginData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zEbQ8KWmEeyKj8XrxpZoJQ" name="AdminLoginControl">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_zEbQ8aWmEeyKj8XrxpZoJQ" name="container">
+        <type xmi:type="uml:Class" href="java.uml#_17BaGeGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_zEbQ8qWmEeyKj8XrxpZoJQ" name="gameClient" type="_OQ1c8KSsEeysG9cbUugbxA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y3miQKWnEeyKj8XrxpZoJQ" name="ActionPerformed" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y3miQaWnEeyKj8XrxpZoJQ" name="ae">
+        <type xmi:type="uml:Class" href="java.uml#_2dem7OGMEeiScrMAsbkENg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y3nwYKWnEeyKj8XrxpZoJQ" name="DisplayError" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y3nwYaWnEeyKj8XrxpZoJQ" name="error">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__pbAQKSuEeysG9cbUugbxA" memberEnd="__pbnUqSuEeysG9cbUugbxA __pbnVaSuEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__pbnUKSuEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__pbnUaSuEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="__pbnVaSuEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="__pbAQKSuEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="__pbnUqSuEeysG9cbUugbxA" name="class29" type="_3siCMKSuEeysG9cbUugbxA" association="__pbAQKSuEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__pbnU6SuEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__pbnVKSuEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__pbnUqSuEeysG9cbUugbxA" name="AdminLoginControl" type="_3siCMKSuEeysG9cbUugbxA" association="__pbAQKSuEeysG9cbUugbxA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_AWru4KSvEeysG9cbUugbxA" memberEnd="_AWru46SvEeysG9cbUugbxA _AWsV8qSvEeysG9cbUugbxA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AWru4aSvEeysG9cbUugbxA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AWru4qSvEeysG9cbUugbxA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_AWsV8qSvEeysG9cbUugbxA" name="gamegui" type="_NOJQ4KSsEeysG9cbUugbxA" association="_AWru4KSvEeysG9cbUugbxA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_AWru46SvEeysG9cbUugbxA" name="class28" type="_3WjyMKSuEeysG9cbUugbxA" association="_AWru4KSvEeysG9cbUugbxA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AWsV8KSvEeysG9cbUugbxA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AWsV8aSvEeysG9cbUugbxA" value="1"/>
-    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AWru46SvEeysG9cbUugbxA" name="CreateAccountControl" type="_3WjyMKSuEeysG9cbUugbxA" association="_AWru4KSvEeysG9cbUugbxA"/>
   </packagedElement>
 </uml:Model>
